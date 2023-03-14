@@ -34,13 +34,66 @@ body{
     border-radius: 5px;
     border: 2px solid red
 }
-.like{
-    background-color: yellow;
-    -webkit-mask: url(./media/like.svg) no-repeat center;
-    mask: url(./media/like.svg) no-repeat center;
-}
 .big-title{
     font-size: 1.75em;
     font-family: Halant;
     margin:auto;
+}
+.avatar{
+    border-radius:5em;
+    border:1px solid #073D09;
+    height: 5.5em;
+    width:5.5em;
+}
+.author-1{
+    background-image: url("media/Post-1-red.jfif");
+    background-position: center;
+    background-size: cover;
+}
+.post-red{
+    background-color: #A32F16;
+    width: 65%;
+    height: 25%;
+    background: #A32F16;
+    border-radius: 10px;
+    margin:2em auto;
+}
+.username{
+    color:#153F26;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+}
+.standard-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 1em;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    color: #E4E90F;
+    padding: 2.5em;
+}
+.icons-block{
+    width: 10%;
+    height: 1%;
+    background-color: #153F26;
+    border:2px solid #FFF503;
+    border-radius: 2px;
+}
+.post-block{
+    display: flex;
+}
+#avatar-4{
+    position:relative;
+    left:17.5%;
+}
+#username-1{
+    position:relative;
+    margin-top:0.5%;
+    left:17.5%;
+}
+.icon{
+    height:1em;
+    width:1em;
 }
