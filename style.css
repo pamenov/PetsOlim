@@ -1,0 +1,9 @@
+.menu ul {
+    display: none;
+}
+
+.menu:hover > ul {
+    display: block;
+    color: red;
+    background: green;
+}
