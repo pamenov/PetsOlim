@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+    <meta charset="utf-8"
+    <html>
+        <head>
+            <link rel="stylesheet" href="style.css">
+            <title>Logging in and registration</title>
+        </head>
+        <body>
+            <div id="register-form>"
+                <p>Who are you?</p>
+                <img src="media/cross.svg"
+                <form method="POST" action="">
+                    <p>name</p> <input type="text" class="form-element" id="name" name="name" required>
+                    <p>teudat zeut</p> <input type="text" minlenght="9" maxlength="9" class="form-element" id="tz" name="teudat zeut" required>
+                    <p>phone</p> <input type="text" minlength="10" class="form-element" pattern="[0-9]" id="phone" name="phone" required>
+                    <p>e-mail</p> <input type="email" class="form-element" id="email" name="email" required>
+                    <p>login</p> <input type="text" class="form-element" id="login" name="login" required>
+                    <p>password</p> <input type="password" minlength="9" class="form-element" id="password" name="password" required>
+                    <p>repeat password</p> <input type="password" minlength="9" class="form-element" id="password_r" name="password_r" required>
+                    <input type="submit" class="register-button" value="register">
+                </form>
+            </div>
+            <div id="login-form">
+                <p>Who are you?</p>
+                <img src="media/cross.svg"
+                <form method="POST" action="">
+                    <p>login</p> <input type="text" class="form-element" name="login" required>
+                    <p>password</p> <input type="password" class="form-element" name="password" required>
+                    <input type="submit" class="register-button" value="log in">
+                </form>
+                <input type="button" value="restore password">
+                <input type="button" value="register">               
+            </div>
+            <div id="have-to-login">
+                <p>You have to log in!</p>
+                <img src="media/cross.svg"
+                <form method="POST" action="">
+                    <p>login</p> <input type="text" class="form-element" name="login" required>
+                    <p>password</p> <input type="password" class="form-element" name="password" required>
+                    <input type="submit" class="register-button" value="log in">
+                </form>
+                <input type="button" value="restore password">
+            </div>
+            <div id="can-not-login">
+                <p>It's only for cats!</p>
+                <img src="media/you-can-not-login.jpeg">
+                <p>You can not log in!</p>
+            </div>
+        </body>
+    </html>
