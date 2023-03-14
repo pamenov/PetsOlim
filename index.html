@@ -19,7 +19,26 @@
         <div class="menu">
             <a href="#"> dropdown </a>
             <ul>
-                <li> <a href=""> login </a></li>
+                <li> 
+                    <button id="open-popup">Open Pop-up</button>
+                    <div id="popup-container">
+                        <div id="popup-content">
+                            <h2>Pop-up Title</h2>
+                            <div id="login-form">
+                                <p>Who are you?</p>
+                                <img src="media/cross.svg">
+                                <form method="POST" action="">
+                                    <p>login</p> <input type="text" class="form-element" name="login" required>
+                                    <p>password</p> <input type="password" class="form-element" name="password" required>
+                                    <input type="submit" class="register-button" value="log in">
+                                </form>
+                                <input type="button" value="restore password">
+                                <input type="button" value="register">               
+                            </div>
+                            <button id="close-popup">Close</button>
+                        </div>
+                    </div>
+                </li>
                 <li> <a href=""> register </a></li>
                 <li> <a href=""> logout </a></li>
             </ul>
