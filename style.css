@@ -3,7 +3,9 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #BACD66CC; opacity: 80%;
+    background-image: url("media/background.png");
+    background-size:contain;
+    /* background-color: #BACD66CC; opacity: 80%; */
 }
 .header-container{
     display: flex;
@@ -79,6 +81,7 @@ body{
     position:relative;
     left:20%;
     margin-top:0.75em;
+    z-index: 1;
 }
 .author-4{
     background-image: url("media/comment-1.webp");
@@ -139,28 +142,37 @@ body{
     border-radius: 10px;
     margin-bottom:2em;
     position: relative;
-    left:55.5%;
+    left:50%;
 }
 .username{
+    background-color: white;
     color:#153F26;
     font-family: Roboto;
     font-size: 16px;
     font-weight: bold;
+    height: 1.5em;
+    border-radius:5px;
+    border:1px solid #073D09;
+    z-index:1;
+    padding: 0.5em;
+    padding-bottom: 1.5em;
+    text-align: center;
 }
 .username-1{
     position:relative;
     margin-top:1.5em;
     left:20%;
+    top:0.75em;
 }
 .username-right{
     position:relative;
     left:58%;
-    bottom:1.5em;
+    bottom:0.75em;
 }
 .username-left{
     position: relative;
     left:12.5%;
-    bottom:1.5em;
+    bottom:0.75em;
 }
 .standard-text{
     font-family: Roboto;
