@@ -66,13 +66,46 @@ body{
     height: 5.5em;
     width:5.5em;
 }
+.avatar-small{
+    border-radius:5em;
+    border:1px solid #073D09;
+    height: 4em;
+    width:4em;
+}
 .author-1{
     background-image: url("media/Post-1-red.jfif");
     background-position: center;
     background-size: cover;
     position:relative;
     left:20%;
-    margin-top:1em;
+    margin-top:0.75em;
+}
+.author-4{
+    background-image: url("media/comment-1.webp");
+    background-position: center;
+    background-size: cover;
+    position:relative;
+    left:58%;
+    bottom:1.5em;
+    z-index: 1;
+}
+.author-5{
+    background-image: url("media/comment-2.jpg");
+    background-position: center;
+    background-size: cover;
+    position:relative;
+    left:12.5%;
+    bottom:1.5em;
+    z-index: 1;
+}
+.author-6{
+    background-image: url("media/comment-3.jpg");
+    background-position: center;
+    background-size: cover;
+    position:relative;
+    left:58%;
+    bottom:1.5em;
+    z-index: 1;
 }
 .post-red{
     background-color: #A32F16;
@@ -86,13 +119,48 @@ body{
     width: 35%;
     height: 15%;
     border-radius: 10px;
-    margin:2em auto;
+    margin-bottom:2em;
+    position: relative;
+    left:50%;
+}
+.comment-green{
+    background-color: #99B81F;
+    width: 35%;
+    height: 15%;
+    border-radius: 10px;
+    margin-bottom:2em;
+    position: relative;
+    left:5%;
+}
+.comment-yellow{
+    background-color: #FFD600;
+    width: 35%;
+    height: 15%;
+    border-radius: 10px;
+    margin-bottom:2em;
+    position: relative;
+    left:55.5%;
 }
 .username{
     color:#153F26;
     font-family: Roboto;
     font-size: 16px;
     font-weight: bold;
+}
+.username-1{
+    position:relative;
+    margin-top:1.5em;
+    left:20%;
+}
+.username-right{
+    position:relative;
+    left:58%;
+    bottom:1.5em;
+}
+.username-left{
+    position: relative;
+    left:12.5%;
+    bottom:1.5em;
 }
 .standard-text{
     font-family: Roboto;
@@ -103,6 +171,10 @@ body{
     align-items: center;
     color: #E4E90F;
     padding: 2.5em;
+}
+.text-dark{
+    color: #631818;
+    font-weight:600;
 }
 .icons-block{
     width: 100px;
@@ -117,21 +189,20 @@ body{
     position: relative;
     left:90%;
 }
+.icons-block-comment{
+    position: relative;
+    left:81.5%;
+}
 .icon{
     margin-top:0.1em;
     margin-bottom:0.1em;
 }
-.post-block{
+.post-block, .comment-block{
     display: flex;
 }
 #avatar-4{
     position:relative;
     left:17.5%;
-}
-.username-1{
-    position:relative;
-    margin-top:1.5em;
-    left:20%;
 }
 .icon{
     height:1em;
