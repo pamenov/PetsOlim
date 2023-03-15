@@ -15,15 +15,6 @@ header {
 
 }
 
-/*#top-of-header {
-    width: 100%;
-    background: #A32F16;
-    padding-top: 5%;
-    display: flex;
-    justify-content: center;
-    z-index: -1;
-}
-*/
 .header-title {
     font-size: 2.5em;
     padding: 5%;
@@ -134,3 +125,103 @@ li {
     font-size: 1.75em;
     font-family: Halant;
     margin:auto;
+    margin: 0px 0px 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #BACD66CC; opacity: 80%;
+}
+.header-container{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    background-color: #A32F16;
+    margin: auto;
+}
+.header-title{
+    font-family: Hurricane;
+    font-size: 3em;
+    color: white;
+    margin: auto;
+}
+.user-icon{
+    height:2.5em;
+    margin-right: 2.5em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.sub-header-container{
+    display: flex;
+    height:20%;
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFD600;
+    border-radius: 5px;
+    border: 2px solid red
+}
+.big-title{
+    font-size: 1.75em;
+    font-family: Halant;
+    margin:auto;
+}
+.avatar{
+    border-radius:5em;
+    border:1px solid #073D09;
+    height: 5.5em;
+    width:5.5em;
+}
+.author-1{
+    background-image: url("media/Post-1-red.jfif");
+    background-position: center;
+    background-size: cover;
+}
+.post-red{
+    background-color: #A32F16;
+    width: 65%;
+    height: 25%;
+    background: #A32F16;
+    border-radius: 10px;
+    margin:2em auto;
+}
+.username{
+    color:#153F26;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+}
+.standard-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 1em;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    color: #E4E90F;
+    padding: 2.5em;
+}
+.icons-block{
+    width: 10%;
+    height: 1%;
+    background-color: #153F26;
+    border:2px solid #FFF503;
+    border-radius: 2px;
+}
+.post-block{
+    display: flex;
+}
+#avatar-4{
+    position:relative;
+    left:17.5%;
+}
+#username-1{
+    position:relative;
+    margin-top:0.5%;
+    left:17.5%;
+}
+.icon{
+    height:1em;
+    width:1em;
+}
+
