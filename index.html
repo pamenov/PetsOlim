@@ -13,15 +13,53 @@
 
 <body>
     <header>
-        <div class="header-container"><p class="header-title">Pets Olim</p>
-        </div>
-        <div class="sub-header-container">
-            <p class="big-title">Topic Name</p>
-        </div>
+        <nav class="top-header">
+        <p class="header-title">Pets Olim</p>
+            <div class="menu">
+                <img src="media/user.png" class="user-icon">
+                <ul>
+                    <li> <a href="#login-form"> login </a></li>
+                    <li> <a href="#register-form"> register </a></li>
+                    <li> <a href=""> logout </a></li>
+                </ul>
+            <div>
+        </nav>
+        <p class="sub-title"> Help the animals repatriants</p>
     </header>
-    <div class="menu">
-        <img src="media/user.png" class="user-icon"></div>
-    <div>
+
+<!-- _______________Pop-ups_________________ -->
+    <div id="login-form" class="popup">
+        <div class="popup-content">
+            <p>Who are you?</p>
+            <a href="#"> <img src="media/cross.svg" alt="close" class="popup-close"> </a>
+            <form method="POST" action="">
+                <p>login</p> <input type="text" class="form-element" name="login" required>
+                <p>password</p> <input type="password" class="form-element" name="password" required>
+                <input type="submit" class="register-button" value="log in">
+            </form>
+            <input type="button" value="restore password">
+            <input type="button" value="register">
+        </div>               
+    </div>
+
+    <div id="register-form" class="popup">
+        <div class="popup-content">
+            <p>Who are you?</p>
+            <a href="#"> <img src="media/cross.svg" alt="close" class="popup-close"> </a>
+            <form method="POST" action="">
+                <p>name</p> <input type="text" class="form-element" id="name" name="name" required>
+                <p>teudat zeut</p> <input type="text" minlenght="9" maxlength="9" class="form-element" id="tz" name="teudat zeut" required>
+                <p>phone</p> <input type="text" minlength="10" class="form-element" pattern="[0-9]" id="phone" name="phone" required>
+                <p>e-mail</p> <input type="email" class="form-element" id="email" name="email" required>
+                <p>login</p> <input type="text" class="form-element" id="login" name="login" required>
+                <p>password</p> <input type="password" minlength="9" class="form-element" id="password" name="password" required>
+                <p>repeat password</p> <input type="password" minlength="9" class="form-element" id="password_r" name="password_r" required>
+                <input type="submit" class="register-button" value="register">
+            </form>
+        </div>
+    </div>
+
+
 
 <!--     <header id="main-header">
         <h1 class="header-title">
