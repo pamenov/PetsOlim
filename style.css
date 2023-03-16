@@ -398,3 +398,10 @@ body{
     position:relative;
     left:17.5%;
 }
+
+.arrow-left{
+    background-image:url("media/arrow-left.png");
+    height:2em;
+    width:2em;
+    background-repeat: no-repeat;
+}
