@@ -7,6 +7,9 @@ body{
     background-size:contain;
     /* background-color: #BACD66CC; opacity: 80%; */
 }
+a:link{
+    text-decoration: none;
+}
 .header-container{
     display: flex;
     width: 100%;
@@ -24,12 +27,21 @@ body{
 }
 .user-icon{
     height:2.5em;
-    margin-right: 2.5em;
-    margin-top: auto;
-    margin-bottom: auto;
     position: absolute;
     left: 95%;
     bottom: 92.5%;
+}
+.info-icon{
+    height:2.5em;
+    position:absolute;
+    left:5%;
+    bottom:92.5%;
+}
+.home-icon{
+    height:2.5em;
+    position:absolute;
+    left:5%;
+    bottom:92.5%;
 }
 .sub-header-container{
     display: flex;
@@ -79,7 +91,7 @@ body{
     background-position: center;
     background-size: cover;
     position:relative;
-    left:20%;
+    left:19em;
     margin-top:0.75em;
     z-index: 1;
 }
@@ -88,7 +100,7 @@ body{
     background-position: center;
     background-size: cover;
     position:relative;
-    left:58%;
+    left:55.5em;
     bottom:1.5em;
     z-index: 1;
 }
@@ -97,7 +109,7 @@ body{
     background-position: center;
     background-size: cover;
     position:relative;
-    left:12.5%;
+    left:13.5%;
     bottom:1.5em;
     z-index: 1;
 }
@@ -106,7 +118,7 @@ body{
     background-position: center;
     background-size: cover;
     position:relative;
-    left:58%;
+    left:55.5em;
     bottom:1.5em;
     z-index: 1;
 }
@@ -161,28 +173,28 @@ body{
 .username-1{
     position:relative;
     margin-top:1.5em;
-    left:20%;
+    left:22%;
     top:0.75em;
 }
 .username-right{
     position:relative;
-    left:58%;
+    left:58.5%;
     bottom:0.75em;
 }
 .username-left{
     position: relative;
-    left:12.5%;
+    left:13.5%;
     bottom:0.75em;
 }
 .standard-text{
     font-family: Roboto;
     font-weight:500;
     font-size: 1em;
-    display: flex;
+    /* display: flex; */
     text-align: justify;
     align-items: center;
     color: #E4E90F;
-    padding: 2.5em;
+    padding: 1.75em;
 }
 .text-dark{
     color: #631818;
@@ -223,6 +235,32 @@ body{
 .arrow-left{
     background-image:url("media/arrow-left.png");
     height:2em;
-    width:2em;
+    width:2.3em;
     background-repeat: no-repeat;
+    position:relative;
+    left:35em;
+    top:0.35em;
+}
+.arrow-right{
+    background-image:url("media/arrow-right.png");
+    height:2em;
+    width:2.3em;
+    background-repeat: no-repeat;
+    position:relative;
+    right:35em;
+    top:0.35em;
+}
+.container-main{
+    width:80%;
+    margin:3em auto;
+    background-color: #99B81F;
+    border-radius: 1em;
+    border:0.05em solid #A32F16;
+}
+.plane-img{
+    width:10em;
+    position: absolute;
+    bottom:30em;
+    left:75em;
+    z-index:1;
 }
