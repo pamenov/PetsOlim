@@ -9,18 +9,74 @@
     </head>
     <body>
         <header>
-            <div class="header-container"><p class="header-title">Pets Olim</p>
-            </div>
-            <div class="sub-header-container">
-                <div class="arrow-left"></div>
-                <p class="big-title">Topic Name</p>
-                <div class="arrow-right"></div>
-            </div>
+            <nav class="top-header">
+            <p class="header-title">Pets Olim</p>
+                <div class="menu">
+                    <img src="media/user.png" class="user-icon">
+                    <ul>
+                        <li> <a href="#login-form"> login </a></li>
+                        <li> <a href="#register-form"> register </a></li>
+                        <li> <a href=""> logout </a></li>
+                    </ul>
+                <div>
+            </nav>
+            <p class="sub-title"> Help the animals repatriants</p>
         </header>
 
-        <div class="menu">
-            <img src="media/user.png" class="user-icon"></div>
+
+<!-- _______________Pop-ups_________________ -->
+        <div id="login-form" class="popup">
+            <div class="popup-content">
+                <p>Who are you?</p>
+                <a href="#"> <img src="media/cross.svg" alt="close" class="popup-close"> </a>
+                <form method="POST" action="">
+                    <div class="form-element">
+                        <p>login</p> <input type="text" name="login" required>
+                    </div>
+                    <div  class="form-element">
+                         <p>password</p> <input type="password" name="password" required>
+                    </div>
+                    <input type="submit" class="register-button" value="log in">
+                </form>
+                <input type="button" value="restore password">
+                <input type="button" value="register">
+            </div>               
         </div>
+
+        <div id="register-form" class="popup">
+            <div class="popup-content">
+                <p>Who are you?</p>
+                <a href="#"> <img src="media/cross.svg" alt="close" class="popup-close"> </a>
+                <form method="POST" action="">
+                    <div  class="form-element">
+                        <p>name</p> <input type="text" id="name" name="name" required>
+                    </div>
+                    <div  class="form-element">
+                        <p>teudat zeut</p> <input type="text" minlenght="9" maxlength="9" id="tz" name="teudat zeut" required>
+                    </div>
+                    <div  class="form-element">
+                        <p>phone</p> <input type="text" minlength="10" pattern="[0-9]" id="phone" name="phone" required>
+                    </div>
+                    <div  class="form-element">
+                        <p>e-mail</p> <input type="email" id="email" name="email" required>
+                    </div>
+                    <div  class="form-element">
+                        <p>login</p> <input type="text" id="login" name="login" required>
+                    </div>
+                    <div  class="form-element">
+                        <p>password</p> <input type="password" minlength="9" id="password" name="password" required>
+                    </div>
+                    <div  class="form-element">
+                        <p>repeat password</p> <input type="password" minlength="9" id="password_r" name="password_r" required>
+                    </div>
+                    <input type="submit" class="register-button" value="register">
+                </form>
+            </div>
+        </div>
+<!-- --------------POPUPS END--------------------- -->
+
+
+
         <div class="new-post"><p>NEW POST</p></div>
         <div class="post-block">
             <div class="avatar author-1" id="avatar-4"></div>
